@@ -1,3 +1,7 @@
+---
+title: Overview
+---
+
 # 🌐 Overview of SediksiDAO - Decentralized Voices
 
 ## Introduction
