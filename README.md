@@ -45,14 +45,20 @@ The repository is organized into several directories, each with a specific purpo
 sediksi-dao/
 │
 ├── docs/
-│   ├── [Introduction Directory](docs/introduction/overview.md)
-│   ├── [Governance Directory](docs/governance/governance_structure.md)
-│   ├── [Content Management Directory](docs/content_management/content_system.md)
-│   ├── [Incentivization Directory](docs/incentivization/token_rewards.md)
-│   ├── [Transformation Directory](docs/transformation/transformation_process.md)
-│   ├── [Roadmap Directory](docs/roadmap/roadmap.md)
-│   ├── [Glossaries Directory](docs/glossaries/glossaries.md)
-│   └── [Unforeseen Challenges and Opportunities Directory](docs/unforeseen_challenges_and_opportunities/unforeseen_challenges_and_opportunities.md)
+│   ├── introduction/
+│   │   └── overview.md
+│   ├── governance/
+│   │   └── governance_structure.md
+│   ├── content_management/
+│   │   └── content_system.md
+│   ├── incentivization/
+│   │   └── token_rewards.md
+│   ├── transformation/
+│   │   └── transformation_process.md
+│   ├── roadmap/
+│   │   └── roadmap.md
+│   ├── glossaries.md
+│   └── unforeseen_challenges_and_opportunities.md
 │
 └── README.md
 ```
