@@ -1,111 +1,79 @@
 # ![Sediksi Logo](https://sediksi.com/wp-content/uploads/2020/09/Logo-Baru-Sediksi.png) SediksiDAO - Decentralized Voices
 
-Welcome to the **SediksiDAO - Decentralized Voices** repository! This project is focused on transforming Sediksi, an alternative media platform, into a decentralized application (dApp) that aligns with cooperative principles and the ethos of Web3. SediksiDAO aims to create a platform where content is managed and curated by the community, ensuring that every voice is heard and valued equally.
+Welcome to the **SediksiDAO - Decentralized Voices** repository! This documentation outlines the vision, goals, and structure of SediksiDAO, an initiative transforming Sediksi from a traditional media platform into a decentralized application (dApp) governed by its community.
 
-## Table of Contents
+## Introduction and Vision ✨
 
-- [ SediksiDAO - Decentralized Voices](#-sediksidao---decentralized-voices)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-    - [Vision and Goals](#vision-and-goals)
-    - [The Meaning of "Sediksi" ✨](#the-meaning-of-sediksi-)
-  - [Project Structure](#project-structure)
-  - [Directories Overview](#directories-overview)
-    - [Introduction Directory](#introduction-directory)
-    - [Governance Directory](#governance-directory)
-    - [Content Management Directory](#content-management-directory)
-    - [Incentivization Directory](#incentivization-directory)
-    - [Transformation Directory](#transformation-directory)
-    - [Roadmap Directory](#roadmap-directory)
-    - [Glossaries Directory](#glossaries-directory)
-    - [Unforeseen Challenges and Opportunities Directory](#unforeseen-challenges-and-opportunities-directory)
-  - [Contributing](#contributing)
-    - [How to Contribute](#how-to-contribute)
-  - [License](#license)
+SediksiDAO’s mission is to create a decentralized platform where contributors can follow a clear path to becoming curators. These curators are essential in ensuring high-quality content and intentional voting that aligns with Sediksi's values. Our goal is to empower community members to have a meaningful impact on content curation and platform decisions.
 
-## Introduction
+> **Important Note**: This repository contains **only documentation**. There are no code files available yet, and the framework or tech stack has not been determined. Therefore, you won’t find a “Getting Started” section here. This documentation focuses on the project's vision, structure, and challenges as Sediksi transitions into a Web3 platform.
 
-SediksiDAO - Decentralized Voices is a project aimed at transitioning Sediksi, a Web2-based media platform founded in 2015, into a Web3-based decentralized autonomous organization (DAO). Sediksi has served as a platform for alternative voices and diverse perspectives, focusing on topics that are often underrepresented in mainstream media.
+## Current State 📈
 
-### Vision and Goals
+Sediksi is a well-established platform with hundreds of active contributors and a dedicated editorial team. Our primary content consists of **Opini** (opinion pieces) and light-themed **News Features**, offering alternative perspectives that are often underrepresented in mainstream media.
 
-- **Decentralized Content Management**: A blockchain-based system that stores and manages Opini articles and other content in a decentralized way, removing the need for centralized control.
-- **Community Governance**: Implementing a token-based governance system where users vote on key decisions, such as content curation and platform development.
-- **Incentivized Contribution**: Contributors earn tokens based on their participation, replacing the current cash reward system with a tokenized model that aligns with cooperative values.
+Currently, Sediksi runs on a WordPress-based system with custom features such as **Custom Post Types (CPTs)** and **Custom Fields**. These features have enabled us to scale while maintaining the unique style and voice of our content.
 
-### The Meaning of "Sediksi" ✨
+## Origin of the Name "Sediksi" 📜
 
-The name "Sediksi" is derived from the Indonesian language, combining "Se-" (a prefix meaning "one") and "Diksi" (meaning "word" or "expression"). Together, "Sediksi" symbolizes the power of a single word or voice. The platform embodies this by amplifying alternative perspectives and giving space to voices that might otherwise go unheard. SediksiDAO builds on this vision by decentralizing the platform, ensuring that every community member’s voice is equally valued in shaping the content and governance of the platform.
+The name “Sediksi” is derived from the Indonesian words *se* (which means "a" or "one") and *diksi* (which means "word" or "phrase"). The name symbolizes the power of a single word in shaping perspectives, driving narratives, and sparking critical conversations.
 
-## Project Structure
+This aligns perfectly with Sediksi's mission as a platform that amplifies alternative voices and diverse perspectives—often starting with just a single word or phrase that challenges mainstream narratives. SediksiDAO carries this spirit forward by decentralizing content creation and governance, ensuring that every member’s voice is equally valued, just like a single word can hold immense significance in communication.
 
-The repository is organized into several directories, each with a specific purpose and documentation. Below is an overview of the directory structure:
+## Transformation Challenges 🚧
 
-```plaintext
-sediksi-dao/
-│
-├── docs/
-│   ├── introduction/
-│   │   └── overview.md
-│   ├── governance/
-│   │   └── governance_structure.md
-│   ├── content_management/
-│   │   └── content_system.md
-│   ├── incentivization/
-│   │   └── token_rewards.md
-│   ├── transformation/
-│   │   └── transformation_process.md
-│   ├── roadmap/
-│   │   └── roadmap.md
-│   ├── glossaries.md
-│   └── unforeseen_challenges_and_opportunities.md
-│
-└── README.md
-```
+Transitioning Sediksi to a decentralized model presents several challenges:
 
-## Directories Overview
+- **Integrating New Curators**: Onboarding curators is crucial to maintaining content quality and ensuring that voting decisions are intentional and align with Sediksi's values. High-quality onboarding and training will be essential in this transformation.
+- **Resource Allocation for Initial Curators**: In the early stages, we plan to strategically allocate resources to incentivize initial curators, ensuring that they have the tools and support needed to succeed and grow the platform.
 
-### [Introduction Directory](docs/introduction/overview.md)
+## Future Development Opportunities 🎨
 
-This document provides a high-level overview of the SediksiDAO project, explaining its mission, core features, and the long-term vision for transforming a Web2 media platform into a decentralized, community-governed ecosystem.
+SediksiDAO envisions expanding the platform beyond just writers to include diverse creative contributors, such as:
 
-### [Governance Directory](docs/governance/governance_structure.md)
+- **Graphic Designers and Illustrators**: Collaborating to create visual assets for Opini content, making articles more engaging and visually appealing.
+- **Photographers**: Providing high-quality images as assets to enhance the overall presentation of articles.
+- **Comic Artists and Visual Storytellers**: Contributing comics and visual narratives that align with SediksiDAO’s mission, offering more varied content formats.
+- **Decentralized Creative Marketplaces**: Potentially introducing a decentralized marketplace where creatives can offer services or collaborate on projects within the SediksiDAO ecosystem, all while being compensated in tokens.
 
-This document outlines the governance structure for SediksiDAO, including the roles of token holders, voting mechanisms, and the process for submitting and approving proposals. It explains how community members can influence the direction of the platform through decentralized governance.
+These developments not only enhance content diversity but also align with SediksiDAO’s cooperative principles by offering more inclusive participation options.
 
-### [Content Management Directory](docs/content_management/content_system.md)
+## Guidelines and Resources 📚
 
-This document details how content will be managed within SediksiDAO. It explains the decentralized content publishing process, storage solutions (like IPFS), and community-driven moderation practices to ensure content quality while maintaining decentralization.
+This repository is structured into directories that provide detailed insights into different aspects of the SediksiDAO project. Click the links below for more information on each section:
 
-### [Incentivization Directory](docs/incentivization/token_rewards.md)
+- [Introduction Directory](docs/introduction/overview.md): Overview of SediksiDAO’s mission and long-term vision.
+- [Governance Directory](docs/governance/governance_structure.md): Explanation of the governance model, including token-based voting and proposal submission.
+- [Content Management Directory](docs/content_management/content_system.md): Details on decentralized content management, storage solutions, and community-driven curation.
+- [Incentivization Directory](docs/incentivization/token_rewards.md): Overview of the token-based reward system and how contributors are incentivized within SediksiDAO.
+- [Transformation Directory](docs/transformation/transformation_process.md): Step-by-step guide on transforming Sediksi into a decentralized platform.
+- [Roadmap Directory](docs/roadmap/roadmap.md): Key milestones and timelines for the development of SediksiDAO.
+- [Unforeseen Challenges and Opportunities Directory](docs/unforeseen_challenges_and_opportunities.md): Insights into challenges and opportunities that may not have been fully anticipated, including monetization strategies, internationalization, and community integration.
+- [Glossaries Directory](docs/glossaries.md): Definitions of key terms related to SediksiDAO, Web3, and decentralized governance.
 
-This document describes the token-based reward system in SediksiDAO. It outlines how contributors earn tokens, the staking mechanisms, and how tokens can be used or exchanged within the ecosystem.
-
-### [Transformation Directory](docs/transformation/transformation_process.md)
-
-This document provides a step-by-step guide on the process of transforming Sediksi from a centralized Web2 platform to a decentralized Web3 platform. It includes details on data migration, smart contract deployment, and user onboarding strategies for the new dApp.
-
-### [Roadmap Directory](docs/roadmap/roadmap.md)
-
-This document contains the development roadmap for SediksiDAO. It outlines the key milestones from the initial planning stages to the launch of the decentralized platform and beyond.
-
-### [Glossaries Directory](docs/glossaries.md)
-
-This glossary defines key terms related to SediksiDAO, Web3, and decentralized governance. It serves as a reference for anyone unfamiliar with the technical or conceptual terms frequently used throughout the documentation.
-
-### [Unforeseen Challenges and Opportunities Directory](docs/unforeseen_challenges_and_opportunities/unforeseen_challenges_and_opportunities.md)
-
-This document addresses challenges that might arise as SediksiDAO scales, particularly in monetization, internationalization, and integrating existing social media communities into a decentralized environment. It also explores future opportunities, such as expanding collaboration with creative professionals and enhancing content distribution strategies.
+> **Reminder**: This documentation is focused on describing the vision, goals, and structure of SediksiDAO. Technical implementation details are not included at this stage.
 
 ## Contributing
 
-We welcome contributions from anyone interested in decentralized media and cooperative governance. Please check the [issues](https://github.com/your-username/sediksi-dao/issues) for open tasks, or reach out with your ideas.
+We welcome contributions from anyone passionate about decentralized media, cooperative governance, and Web3. If you have ideas or expertise to share, please check the [issues](https://github.com/erzawansyah/sediksi-dao/issues) section or reach out directly.
 
 ### How to Contribute
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
+2. Create a new branch for your contributions.
 3. Submit a pull request with a detailed description of your changes.
+
+## Contact and Social Media 📬
+
+Feel free to reach out or connect with me through the following channels:
+
+- **Email**: [erzawansyah@gmail.com](mailto:erzawansyah@gmail.com)
+- **Twitter**: [@erzawansyah](https://twitter.com/erzawansyah)
+- **Instagram**: [@erzawansyah](https://instagram.com/erzawansyah)
+- **LinkedIn**: [linkedin.com/in/erzawansyah](https://linkedin.com/in/erzawansyah)
+- **Discord**: erzawansyah
+
+You can also visit [Sediksi](https://sediksi.com) to explore the platform and join the community.
 
 ## License
 
