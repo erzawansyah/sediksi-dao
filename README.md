@@ -89,7 +89,7 @@ This document provides a step-by-step guide on the process of transforming Sedik
 
 This document contains the development roadmap for SediksiDAO. It outlines the key milestones from the initial planning stages to the launch of the decentralized platform and beyond.
 
-### [Glossaries Directory](docs/glossaries/glossaries.md)
+### [Glossaries Directory](docs/glossaries.md)
 
 This glossary defines key terms related to SediksiDAO, Web3, and decentralized governance. It serves as a reference for anyone unfamiliar with the technical or conceptual terms frequently used throughout the documentation.
 
