@@ -2,6 +2,14 @@
 
 Welcome to the **SediksiDAO - Decentralized Voices** repository! This documentation outlines the vision, goals, and structure of SediksiDAO, an initiative transforming Sediksi from a traditional media platform into a decentralized application (dApp) governed by its community.
 
+> **Status: Concept / proposal (2024).** This is an idea document, not an abandoned software project. There is no implementation yet, and none was planned at this stage.
+
+## Context
+
+SediksiDAO was written in August 2024 as a submission to the **Movement** program, a Web3 builder program in the Move ecosystem. The repository captures the proposal as submitted: the vision, governance model, content flow, incentives, and a phased roadmap for turning [Sediksi](https://sediksi.com) into a community-governed media platform.
+
+The idea is still alive. The author would like to apply it to Sediksi in the future, starting small and validating each step with the existing community before any on-chain work. The documents sometimes mention specific networks (for example Ethereum or Polygon) and IPFS as examples; the actual chain and storage stack have **not been decided**.
+
 ## Introduction and Vision ✨
 
 SediksiDAO’s mission is to create a decentralized platform where contributors can follow a clear path to becoming curators. These curators are essential in ensuring high-quality content and intentional voting that aligns with Sediksi's values. Our goal is to empower community members to have a meaningful impact on content curation and platform decisions.
@@ -53,6 +61,26 @@ This repository is structured into directories that provide detailed insights in
 
 > **Reminder**: This documentation is focused on describing the vision, goals, and structure of SediksiDAO. Technical implementation details are not included at this stage.
 
+## Next steps
+
+Realistic steps to move this from proposal to practice:
+
+1. **Validate with Sediksi contributors**: share the proposal with active writers and editors, and collect what they actually want from a contributor-to-curator path.
+2. **Pilot curation off-chain first**: run a small curator group with simple, transparent voting (forms or a shared board) on real submissions, and measure quality and turnaround.
+3. **Define the curator path**: write down the criteria, responsibilities, and onboarding for curators based on the pilot.
+4. **Draft minimal tokenomics**: decide what contributions are rewarded, how, and what is explicitly out of scope, before choosing any chain.
+5. **Choose the technology**: compare candidate chains (including Movement) and storage options against the pilot's needs, and record the decision.
+6. **Prototype one on-chain flow**: implement a single flow (for example, curator voting on a submission) on a testnet, connected to the existing WordPress site.
+
+## Open questions
+
+- Does decentralizing curation improve quality, or only add friction for writers?
+- How should editorial values be protected when votes are token-weighted?
+- Can incentives work without turning contributors into speculators?
+- What stays on WordPress, and what (if anything) must move on-chain?
+
+Feedback on any of these is welcome through [Issues](https://github.com/erzawansyah/sediksi-dao/issues).
+
 ## Contributing
 
 We welcome contributions from anyone passionate about decentralized media, cooperative governance, and Web3. If you have ideas or expertise to share, please check the [issues](https://github.com/erzawansyah/sediksi-dao/issues) section or reach out directly.
@@ -63,18 +91,15 @@ We welcome contributions from anyone passionate about decentralized media, coope
 2. Create a new branch for your contributions.
 3. Submit a pull request with a detailed description of your changes.
 
-## Contact and Social Media 📬
+## Contact 📬
 
-Feel free to reach out or connect with me through the following channels:
-
-- **Email**: [erzawansyah@gmail.com](mailto:erzawansyah@gmail.com)
-- **Twitter**: [@erzawansyah](https://twitter.com/erzawansyah)
-- **Instagram**: [@erzawansyah](https://instagram.com/erzawansyah)
+- **GitHub**: [@erzawansyah](https://github.com/erzawansyah)
 - **LinkedIn**: [linkedin.com/in/erzawansyah](https://linkedin.com/in/erzawansyah)
-- **Discord**: erzawansyah
 
-You can also visit [Sediksi](https://sediksi.com) to explore the platform and join the community.
+For questions or feedback about the proposal, please open an [issue](https://github.com/erzawansyah/sediksi-dao/issues). You can also visit [Sediksi](https://sediksi.com) to explore the platform and join the community.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The documentation in this repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt it for any purpose, as long as you give appropriate credit. See the [LICENSE](LICENSE) file for details.
+
+The Sediksi name and logo are not covered by this license.
